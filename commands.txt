@@ -1,0 +1,2 @@
+npx tailwindcss -i ./lib/css/input.css -o ./src/styles/tailwind.css --watch 
+npx tailwindcss -o ./src/styles/tailwind.css --minify
