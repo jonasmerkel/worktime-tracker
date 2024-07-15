@@ -1,12 +1,31 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="de">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=#, initial-scale=1.0">
-    <title>Document</title>
-    
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=#, initial-scale=1.0" />
+    <title>Arbeitszeitrechner</title>
+    <link rel="stylesheet" href="./styles/tailwind.css" />
 </head>
+
 <body>
-    
+    <div class="h-screen flex items-center justify-center text-center">
+        <div class="">
+            <h1 class="text-3xl md:text-6xl underline">Arbeitszeitrechner</h1>
+            <p class="text-md md:text-3xl">Einfache Berechnung der Arbeitszeit</p>
+            <form class="text-xl md:text-2xl mt-5" action="">
+                <div class="">
+                    <label for="come">Kommen</label>
+                    <input type="time">
+                </div>
+                <div>
+                    <label for="go">Gehen</label>
+                    <input type="time">
+                </div>
+                <input type="submit">
+            </form>
+        </div>
+    </div>
 </body>
+
 </html>
